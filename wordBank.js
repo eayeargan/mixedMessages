@@ -1,5 +1,11 @@
-export const names = ['James', 'Jack', 'Jimmy', 'Jason', 'Jimbo'];
+const names = ['James', 'Jack', 'Jimmy', 'Jason', 'Jimbo'];
 
-export const actions = ['grabs', 'pokes', 'caresses', 'drops', 'fixes'];
+const actions = ['grabs', 'pokes', 'caresses', 'drops', 'fixes'];
 
-export const subjects = ['the robot', 'the donkey', 'the bicycle', 'the paper plate', 'the pants'];
+const subjects = ['the robot', 'the donkey', 'the bicycle', 'the paper plate', 'the pants'];
+
+exports.names = names;
+
+exports.actions = actions;
+
+exports.subjects = subjects;
